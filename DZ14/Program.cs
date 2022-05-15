@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 
 Console.WriteLine("Введите числа");
-double[] ar1=Console.ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries).Select(x=>double.Parse(x)).ToArray();
+double[] ar1=Console.ReadLine()!.Split(" ",StringSplitOptions.RemoveEmptyEntries).Select(x=>double.Parse(x)).ToArray();
 
 double b1 = ar1[0];
 double k1 = ar1[1];

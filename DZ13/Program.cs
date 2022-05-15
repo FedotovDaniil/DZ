@@ -8,7 +8,7 @@ using System;
 using System.Linq;
 
 Console.WriteLine("Введите числа");
-int[] ar1=Console.ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries).Select(x=>int.Parse(x)).ToArray();
+int[] ar1=Console.ReadLine()!.Split(" ",StringSplitOptions.RemoveEmptyEntries).Select(x=>int.Parse(x)).ToArray();
 Console.WriteLine(ar1);
 int count = 0;
 
