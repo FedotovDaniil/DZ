@@ -1,10 +1,4 @@
-﻿using dzAndMore;
-
-
-
-
-using System;
-using static System.Console;
+﻿using static System.Console;
 
 
 Clear();
@@ -59,12 +53,5 @@ int Akkerman(int m, int n)
     else return Akkerman(m - 1, Akkerman(m, n - 1));
 }
 
-m = 8;
-Console.WriteLine("63 " + m);
-Console.WriteLine("64 " + m--);
-Console.WriteLine("65 " + m);
-Console.WriteLine("66 " + --m);
-Console.WriteLine("67 " + m);
-Console.WriteLine("68 " + (m - 1));
-Console.WriteLine("69 " + m);
+
 
